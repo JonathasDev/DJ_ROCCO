@@ -32,6 +32,7 @@ header .caixa_topo .menu{
 }
 
 header .caixa_topo .menu li{
+    font-family: 'Open Sans', sans-serif;
     display: inline;
     margin: 0 0 0 15px;
 }
@@ -63,4 +64,19 @@ header .caixa_topo .redes_sociais li{
 header .caixa_topo .redes_sociais li a:hover{
     border-bottom: 2px #DD2422;
     border-style: solid;
+}
+
+
+/*Rodapé*/
+footer{
+    text-align: center;
+    background: url(../imagens/rodape/bg.jpg);
+    padding: 10px 0;
+}
+
+footer .copyright{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 14px;
+    margin-top: 20px;
 }
