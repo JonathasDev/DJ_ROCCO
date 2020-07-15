@@ -66,6 +66,12 @@ header .caixa_topo .redes_sociais li a:hover{
     border-style: solid;
 }
 
+/*Body*/
+.imagem_index img{
+    width: 100%;
+    margin: 0 auto;
+}
+
 
 /*Rodapé*/
 footer{
