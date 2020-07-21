@@ -1,0 +1,110 @@
+/*Cabeçalho*/
+
+header{
+    background: #F8F8F8;
+    padding: 20px 0;
+}
+
+header .banner{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    opacity: 30%;
+}
+
+header .caixa_topo{
+    position: relative;
+    width: 973px;
+    margin: 0 auto;
+    
+}
+
+header .caixa_topo h1{
+    position: absolute;
+    top: 100px;
+    left: 220px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+}  
+
+header .caixa_topo h1:hover{
+    transition: 1s;
+    font-size: 68px;
+    color: #DD2422;    
+}
+
+header .caixa_topo .menu{
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+
+header .caixa_topo .menu li{
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+header .caixa_topo .menu li a{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 1);
+}
+
+header .caixa_topo .menu li a:hover{
+    text-decoration: underline;
+    color: #DD2422;
+}
+
+header .caixa_topo .redes_sociais{
+    position: absolute;
+    top: 160px;
+    right: 0;
+}
+
+header .caixa_topo .redes_sociais li{
+    display: inline;
+    margin: 0 10px;
+}
+
+header .caixa_topo .redes_sociais li a:hover{
+    border-bottom: 2px #DD2422;
+    border-style: solid;
+}
+
+header .caixa_topo .redes_sociais li .efeitos-pb{
+    opacity: 100%;
+}
+
+header .caixa_topo .redes_sociais li .efeitos-c{
+    opacity: 0%;
+}
+
+header .caixa_topo .redes_sociais li .efeitos-c:hover{
+    transition: 0.5s;
+    opacity: 100%;
+    border-bottom: 4px #DD2422;
+    border-style: solid;
+}
+
+header .caixa_topo .redes_sociais li #whattsapp{
+    position: absolute;
+    right: 0px;
+}
+
+header .caixa_topo .redes_sociais li #instagram{
+    position: absolute;
+    right: 70px;
+}
+
+header .caixa_topo .redes_sociais li #youtube{
+    position: absolute;
+    right: 140px;
+}
+
+header .caixa_topo .redes_sociais li #facebook{
+    position: absolute;
+    right: 210px;
+}
