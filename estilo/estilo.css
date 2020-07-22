@@ -1,25 +1,39 @@
 /*Body*/
-
-main .principal{
-    padding: 20px 0;
-    background: #FEFEFE;
-    width: 974px;
-    margin: 0 auto;
-    
+body{
+    /*background: linear-gradient(#ffffff, #000000);*/
+    /*background: black;*/
+    background: linear-gradient(#474747, #000000);
 }
 
-main h1{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 22px;
+body .titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
     text-align: center;
     margin: 0 0 1em;
+    color: white;
 }
 
-main p{
-    font-family: 'Lato', sans-serif;
+body p{
+    font-family: 'lato', sans-serif;
     font-size: 18px;
     margin: 0 0 1em;
+    color: #F8f8f8;
+}
 
+main .quem-somos{
+    padding: 20px 0px;
+    background:rgba(0, 0, 0, 0);
+    width: 974px; 
+    margin: 8px auto 0px auto;    
+    height: 300px;
+}
+
+main .quem-somos img{
+    padding: 10px 10px;
+    float: right;
+    width: 250px;
+    height: 300px;]
 }
 
 /*Rodapé*/
