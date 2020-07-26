@@ -91,20 +91,22 @@ header .caixa_topo .redes_sociais li .efeitos-c:hover{
 
 header .caixa_topo .redes_sociais li #whattsapp{
     position: absolute;
-    right: 0px;
+    right: 210px;
 }
 
 header .caixa_topo .redes_sociais li #instagram{
-    position: absolute;
-    right: 70px;
-}
-
-header .caixa_topo .redes_sociais li #youtube{
     position: absolute;
     right: 140px;
 }
 
 header .caixa_topo .redes_sociais li #facebook{
     position: absolute;
-    right: 210px;
+    right: 70px;
 }
+
+
+header .caixa_topo .redes_sociais li #youtube{
+    position: absolute;
+    right: 0px;
+}
+

@@ -1,8 +1,7 @@
 /*Body*/
 body{
-    /*background: linear-gradient(#ffffff, #000000);*/
-    /*background: black;*/
-    background: linear-gradient(#474747, #000000);
+    background: black;
+    /*background: linear-gradient(#474747, #000000);*/
 }
 
 body .titulo{
@@ -12,30 +11,108 @@ body .titulo{
     text-align: center;
     margin: 0 0 1em;
     color: white;
+    padding: 10px;
 }
 
+body .sub-titulo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    margin: 0 0 1em;
+}
+
+body h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    margin: 0 0 1em; 
+}
 body p{
     font-family: 'lato', sans-serif;
     font-size: 18px;
     margin: 0 0 1em;
     color: #F8f8f8;
 }
+/*FIM DO BODY*/
 
-main .quem-somos{
+/*INICIO DO MAIN*/
+main{
+    width: 974px;
+    margin: 0px auto;
+}
+main .contato{
     padding: 20px 0px;
     background:rgba(0, 0, 0, 0);
-    width: 974px; 
+    /*width: 974px;*/ 
     margin: 8px auto 0px auto;    
     height: 300px;
 }
 
-main .quem-somos img{
+main .contato .foto{
     padding: 10px 10px;
-    float: right;
+    float: left;
     width: 250px;
-    height: 300px;]
+    height: 300px;
 }
 
+main .contato #logo-whatts{
+    margin-left: 30%;
+}
+
+main #parceiros{
+    padding: 10px 10px;
+}
+main .mapa-conteudo{
+   /* width: 974px;*/
+    margin: 0 auto;
+}
+
+/*INICIO FALE CONOSCO*/
+form{
+    margin-left: 20%;
+}
+
+form label, form legend{
+    display: block;
+    margin: 0 0 10px;
+    color: white;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    width: 70%;
+    padding: 10px 25px;
+}
+
+.checkbox{
+    padding: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;/*Arredondamento das bordas*/
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: rgb(201, 112, 5);
+    transition: 1s;/*Transição do background*/
+    transform: scale(1.2);/*Aumenta o elemento em 20% (1.2)*/
+}
+
+/*FIM DO FORMULÁRIO*/
+/*FIM DO MAIN*/
 /*Rodapé*/
 
 footer{
@@ -64,6 +141,5 @@ footer .copyright{
     font-family: 'Lato', sans-serif;
     color: white;
     font-size: 18px;
-    left: 200px;
-    
+    left: 200px;   
 }

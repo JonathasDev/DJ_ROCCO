@@ -10,6 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo/gallery.min.css">
+    <link rel="stylesheet" href="estilo/gallery.theme.css">
     <title>Dj Rocco</title>
 </head>
 <body>
@@ -22,51 +24,138 @@
             <h1>DJ ROCCO</h1>
             <nav class="menu">
                 <ul>
-                    <li><a href="index.html">Fotos</a></li>
-                    <li><a href="index.html">Videos</a></li>
-                    <li><a href="index.html">Agenda</a></li>
-                    <li><a href="index.html">Contato</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#parceiros">Parceiros</a></li>
                 </ul>
             </nav>
             <nav class="redes_sociais">
                 <ul>
-                    <li><a href="https://www.facebook.com/THEDJROCCO" target="_BLANK">
-                        <img class="efeitos-pb" id="facebook" src="imagens/icones/facebook-pb.png" alt="Whattsapp" width="60px" height="60px">
-                        <img class="efeitos-c" id="facebook" src="imagens/icones/facebook-c.png" alt="Whattsapp" width="60px" height="60px"></a>
-                    </li>
-                    <li><a href="https://www.youtube.com/jeffersonrocco/" target="_BLANK">
-                        <img class="efeitos-pb" id="youtube" src="imagens/icones/youtube-pb.png" alt="Whattsapp" width="60px" height="60px">
-                        <img class="efeitos-c" id="youtube" src="imagens/icones/youtube-c.png" alt="Whattsapp" width="60px" height="60px"></a>
-                    </li>
-                    <li><a href="#" target="_BLANK">
+                    <li>
+                        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511976296093&text=Olá%20DJ%20Rocco!,%20pode%20me%20ajudar?" target="_BLANK">
                         <img class="efeitos-pb" id="whattsapp" src="imagens/icones/whattsapp-pb.png" alt="Whattsapp" width="60px" height="60px">
                         <img class="efeitos-c" id="whattsapp" src="imagens/icones/whattsapp-c.png" alt="Whattsapp" width="60px" height="60px"></a>
                     </li>
-                    <li><a href="#" target="_BLANK">
-                        <img class="efeitos-pb" id="instagram" src="imagens/icones/instagram-pb.png" alt="Whattsapp" width="60px" height="60px">
-                        <img class="efeitos-c" id="instagram" src="imagens/icones/instagram-c.png" alt="Whattsapp" width="60px" height="60px"></a>
+                    <li>
+                        <a href="https://www.facebook.com/THEDJROCCO" target="_BLANK">
+                        <img class="efeitos-pb" id="facebook" src="imagens/icones/facebook-pb.png" alt="Facebook" width="60px" height="60px">
+                        <img class="efeitos-c" id="facebook" src="imagens/icones/facebook-c.png" alt="Facebook" width="60px" height="60px"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/jeffersonrocco/" target="_BLANK">
+                        <img class="efeitos-pb" id="youtube" src="imagens/icones/youtube-pb.png" alt="youtube" width="60px" height="60px">
+                        <img class="efeitos-c" id="youtube" src="imagens/icones/youtube-c.png" alt="youtube" width="60px" height="60px"></a>
+                    </li>
+                    <li><a href="#contato">
+                        <img class="efeitos-pb" id="instagram" src="imagens/icones/instagram-pb.png" alt="Instagram" width="60px" height="60px">
+                        <img class="efeitos-c" id="instagram" src="imagens/icones/instagram-c.png" alt="Instagram" width="60px" height="60px"></a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <section class="quem-somos">
-            <img src="imagens/conteudo/sobre.png" alt="Dj Rocco animando a festa">
-            <h2 class="titulo">Sobre o Dj Rocco</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime magni quasi neque? Consectetur, quasi, nihil, cupiditate temporibus molestiae ducimus veniam commodi est sit officia repudiandae alias assumenda doloribus corporis laborum!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi non delectus facere ipsum aut esse eos culpa accusamus maiores officiis! Ab officiis esse harum minus itaque, iusto debitis exercitationem natus?</p>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia inventore voluptate, ab libero fugiat sunt voluptatem vitae dignissimos eos vero veritatis reiciendis, nobis necessitatibus eaque quia esse, suscipit eius eveniet.</p>
-    </section>
+        <div class="gallery autoplay items-4">
+            <div id="item-1" class="control-operator"></div>
+            <div id="item-2" class="control-operator"></div>
+            <div id="item-3" class="control-operator"></div>
+            <div id="item-4" class="control-operator"></div>
 
-    <section class="quem-somos">
-        <img src="imagens/conteudo/sobre.png" alt="Dj Rocco animando a festa">
-        <h2 class="titulo">Lista de serviços</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime magni quasi neque? Consectetur, quasi, nihil, cupiditate temporibus molestiae ducimus veniam commodi est sit officia repudiandae alias assumenda doloribus corporis laborum!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi non delectus facere ipsum aut esse eos culpa accusamus maiores officiis! Ab officiis esse harum minus itaque, iusto debitis exercitationem natus?</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia inventore voluptate, ab libero fugiat sunt voluptatem vitae dignissimos eos vero veritatis reiciendis, nobis necessitatibus eaque quia esse, suscipit eius eveniet.</p>
-</section>
-</main>
+            <figure class="item">
+                <h1><img src="imagens/conteudo/carrousel/imagem-1.jpg" alt=""></h1>
+            </figure>
+
+            <figure class="item">
+                <h1><img src="imagens/conteudo/carrousel/imagem-2.jpg" alt=""></h1>
+            </figure>
+
+            <figure class="item">
+                <h1><img src="imagens/conteudo/carrousel/imagem-3.jpg" alt=""></h1>
+            </figure>
+
+            <figure class="item">
+                <h1><img src="imagens/conteudo/carrousel/imagem-4.jpg" alt=""></h1>
+            </figure>
+
+            <div class="controls">
+                <a href="#item-1" class="control-button">
+                    <img class="over-contador" src="imagens/conteudo/carrousel/1.png" width="30px" height="30px" alt="">
+                </a>
+                <a href="#item-2" class="control-button">
+                    <img class="over-contador" src="imagens/conteudo/carrousel/2.png" width="30px" height="30px" alt="">
+                </a>
+                <a href="#item-3" class="control-button">
+                    <img class="over-contador" src="imagens/conteudo/carrousel/3.png" width="30px" height="30px" alt="">
+                </a>
+                <a href="#item-4" class="control-button">
+                    <img class="over-contador" src="imagens/conteudo/carrousel/4.png" width="30px" height="30px" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="fale-conosco">
+            <section class="contato">
+                <img class="foto" src="imagens/conteudo/sobre.png" alt="Dj Rocco animando a festa">
+                <h2 id="contato" class="titulo">Fale conosco</h2>
+                <p>Eai, gostou? Quer fazer uma festa dessas pra você? Preencha o formulário abaixo para entrarmos em contato, ou se preferir, envie diretamente uma mensagem pelo whattsapp.</p>
+                    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511976296093&text=Olá%20DJ%20Rocco!,%20pode%20me%20ajudar?" target="_BLANK">
+                        <img id="logo-whatts" src="imagens/icones/whattsapp-c.png" alt="Whattsapp" >
+                    </a>  
+            </section>
+            <section class="formulario">
+                <h3>Formulário para contato</h3>
+                <form>
+                    <label for="nomecompleto">Nome:</label>
+                    <input type="text" id="nomecompleto" class="input-padrao" required>
+                    
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+                    
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+                    
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" cols="70" rows="10" class="input-padrao" required></textarea>
+
+                    <fieldset>
+                        <legend>Como prefere nosso contato?</legend>
+                        <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">E-mail</label>
+                        
+                        <label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                        
+                        <label for="radio-whattsapp"><input type="radio" name="contato" value="whattsapp" id="radio-whattsapp" checked>WhattsApp</label>
+                        
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Qual horário prefere ser atendido?</legend>
+                        <select>
+                            <option>Manhã</option>
+                            <option>Tarde</option>
+                            <option>Noite</option>
+                        </select>
+                    </fieldset>
+                    <label class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas noticias por e-mail?</label>
+                    
+                    <input type="submit" value="Enviar Formulário" class="enviar">
+        
+                </form>
+            </section>
+        </div>
+        <section id="galeria">
+            <h2 class="titulo">Galeria</h2>
+            <p>Aqui iniciaremos a galeria</p>
+        </section>
+        <section id="parceiros" class="parceiros">
+            <h2 class="titulo">Parceiros</h2>
+            <h3 class="sub-titulo">Espaço Manakah</h3>
+            <p>Se você curte um chop artesanal, não pode deixar de conhecer a mais nova TAP HOUSE do ABC.</p>
+            <p>Dj Rocco e convidados, estão sempre presentes. Residente no Espaço Manakah há anos, acompanhe nossa agenda para ver os dias e horários e venha nos prestigiar.</p>
+        <div class="mapa-conteudo">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29230.018745796195!2d-46.558386!3d-23.684813!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce43999c3c8983%3A0xd7be9696789f88c!2sManakah!5e0!3m2!1spt-BR!2sus!4v1595500583703!5m2!1spt-BR!2sus" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </section>
+    -->
+    </main>
     <footer>
         <div class="rodape">
             <img src="imagens/logo/logo_transparente.png" alt="Logo do Dj Rocco">
